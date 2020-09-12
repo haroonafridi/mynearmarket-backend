@@ -11,6 +11,6 @@ public class HelloTest {
     public void testHello() {
         String helloMessage = "HelloMyNearMarket";
         assertEquals("HelloMyNearMarket", helloMessage);
-        logger.info(helloMessage);
+        logger.info("Hello message from my near market");
     }
 }
